@@ -6,12 +6,17 @@
     text-align: center;
     margin: 0;
     margin-bottom: 32px;
+    color: #fff;
+    line-height: 1.1;
+    z-index: 1;
     }
     
     @media screen and (max-width: 767px) {
         .cover__title {
           max-width: 248px;
           font-size: 32px;
-          line-height: 1.1;
+          margin-top: 33px;
+          margin-bottom: 16px;
+
         }
       }

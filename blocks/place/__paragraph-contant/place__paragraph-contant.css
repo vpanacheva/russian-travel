@@ -1,0 +1,23 @@
+.place__paragraph-contant {
+    margin: 0;
+    font-style:  normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place__paragraph-contant {
+      margin: 0 auto;
+    font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__paragraph-contant {
+      line-height: 163%;
+     font-size: 16px;
+     margin-left: 16px;
+    }
+  }
+  

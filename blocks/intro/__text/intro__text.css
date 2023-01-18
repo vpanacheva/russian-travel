@@ -2,8 +2,24 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-top: 40px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
     max-width: 690px;
+  }
+  @media screen and (max-width: 1023px) {
+    .intro__text {
+      max-width: 720px;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .intro__text {
+      max-width: 288px;
+      margin-bottom: 34px;
+      margin-top: 44px;
+    }
   }
